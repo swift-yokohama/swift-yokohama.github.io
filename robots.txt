@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://swift-yokohama.github.io/sitemap.xml
