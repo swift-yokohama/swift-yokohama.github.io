@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149862859-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-149862859-1');
+      </script>
+
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+      <!-- Enable responsiveness on mobile devices-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+      <meta name="description" content="Swift勉強会 in Yokohamaは横浜で定期開催しているiPhoneアプリ開発のコミュニティです">
+      <meta property="og:site_name" content="Swift横浜">
+      <meta property="og:description" content="Swift勉強会 in Yokohamaは横浜で定期開催しているiPhoneアプリ開発のコミュニティです">
+      <meta property="og:image" content="https://swift-yokohama.github.io/logo.png">
+      <meta property="og:url" content="https://swift-yokohama.github.io">
+      <meta property="og:title" content="横浜のiPhoneアプリ開発コミュニティ | Swift勉強会 in Yokohama">
+      <meta property="og:type" content="website" data-vmid="og:type" data-vue-meta="true">
+
+      <title>Swift横浜</title>
+      <link rel="icon" type="image/png" href="/favicon.ico">
+      <!-- CSS -->
+      <link rel="stylesheet" href="https:&#x2F;&#x2F;swift-yokohama.github.io&#x2F;print.css" media="print">
+      <link rel="stylesheet" href="https:&#x2F;&#x2F;swift-yokohama.github.io&#x2F;poole.css">
+      <link rel="stylesheet" href="https:&#x2F;&#x2F;swift-yokohama.github.io&#x2F;hyde.css">
+      <link rel="stylesheet" href="https:&#x2F;&#x2F;swift-yokohama.github.io&#x2F;site.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+      
+
+      
+      
+    </head>
+
+    <body class="theme-base-0d layout-reverse">
+        
+            <div class="sidebar">
+                <div class="container sidebar-sticky">
+                    <div class="sidebar-about">
+                        
+                            <a href="https:&#x2F;&#x2F;swift-yokohama.github.io"><h1>Swift横浜</h1></a>
+                            
+                            <p class="lead">横浜で月1回定期開催しているSwift勉強会の情報です。</p>
+                            
+                        
+                    </div>
+
+                    <ul class="sidebar-nav">
+                        
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div class="content container">
+            
+<div class="post">
+  <h1 class="post-title">第43回Swift横浜 勉強会レポート</h1>
+  <span class="post-date">2019-01-18</span>
+  <p>1/18(土) 43回目のSwift横浜 勉強会を開催しました。<br />
+2020年もよろしくお願いします。</p>
+<p>本日の参加者は6名です。</p>
+<h3 id="mokumokutaimu">もくもくタイム</h3>
+<p>まずは自己紹介。
+本日は学生インターンをしながら、友人とアプリ開発を行っている大学生が参加してくれました。<br />
+彼の開発しているアプリは<a href="https://apps.apple.com/jp/app//id1477414061">‎「ケアトモ-お年寄りの暮らしQ&amp;Aアプリ」</a>です。<br />
+介護に関わる人の悩みを共有できるコミュニティアプリです。管理人も過去に介護関係の方から介護職、被介護者の親族の悩みを相談できるようなものがあったらいいという話を聞いたことがあるので、介護業界の方にはニーズがあるアプリではないでしょうか。</p>
+<p>そして、いつもの通り、約4時間半各自もくもくと自分のアプリ開発を行いました。</p>
+<p><img src="https://swift-yokohama.github.io/reports/event-43th/202001_1.jpg" alt="勉強会の様子1" /></p>
+<h3 id="fa-biao-taimu">発表タイム</h3>
+<p>会の終わりにもくもく開発の成果をシェアしました。</p>
+<ul>
+<li>Github ActionsでiOSアプリのCI環境構築</li>
+<li>SwiftUIを利用してアプリ開発</li>
+<li>クリーンアーキテクチャに関するLT資料作成</li>
+<li>動画アプリの開発</li>
+<li>Combineの基本的な使い方を学習</li>
+</ul>
+<p>成果の内容をいくつかピックアップします。</p>
+<ol>
+<li>Github ActionsでiOSアプリのCI環境構築<br />
+Github社が提供しているGithub Actionsを使って、iOSアプリをbuild、テストするCI環境を作っていたのですが、実行環境にmac OSを指定して、Xcodeのbuildを実行できるんですね。便利です。<br />
+Qiitaにも記事をまとめてくれてます。<br />
+<a href="https://qiita.com/u5_03/items/d6989412792f65179338">Github ActionsでiOSのプロジェクトをビルドしたい！ - Qiita</a> </li>
+<li>Combineの基本的な使い方を学習<br />
+管理人は前回の勉強会で<a href="https://dev.classmethod.jp/smartphone/iphone/ios13-swiftui-combine-incremental-search/">[iOS 13] SwiftUI + Combine + APIKitでインクリメンタルサーチ</a>を参考にしながら、APIKit + Combineの実装をしました。<br />
+今回はもっと基本的な使い方を学ぶために<a href="https://www.vadimbulavin.com/swift-combine-framework-tutorial-getting-started/">Swift Combine Framework Tutorial: Getting Started</a>のサイトを参考に、Playgroundでコードを書いて動かしてみました。</li>
+</ol>
+<p>今年も月1回ペースで開催します。<br />
+お気軽にご参加ください。</p>
+
+</div>
+
+        </div>
+
+    </body>
+
+</html>
